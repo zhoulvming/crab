@@ -11,6 +11,6 @@ console.log('crab started on port ' + port)
 // index page
 app.get('/', function(req, res){
 	res.render('index', {
-		title: 'crab 首页'
+		title: 'crab home'
 	})
 })
